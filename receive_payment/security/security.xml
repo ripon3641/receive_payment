@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record model="ir.module.category" id="module_category_receive_payment">
+        <field name="name">Receive Payment</field>
+        <field name="parent_id" ref="base.module_category_sales_sales" />
+        <field name="sequence">10</field>
+    </record>
+    <record id="receive_payment_create" model="res.groups">
+        <field name="name">Receive payment Create</field>
+        <field name="category_id" ref="module_category_receive_payment"/>
+    </record>
+<!--    <record id="receive_payment_approval" model="res.groups">-->
+<!--        <field name="name">Receive payment Approval</field>-->
+<!--        <field name="category_id" ref="module_category_receive_payment"/>-->
+<!--    </record>-->
+</odoo>

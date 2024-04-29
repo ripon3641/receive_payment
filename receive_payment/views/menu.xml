@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <menuitem id="receive_payment_root"
+              name="Receive Payment"
+              web_icon="receive_payment,static/icon.png"
+              sequence="0"/>
+    <menuitem id="receive_payment_master"
+              name="Receive Payment"
+              parent="receive_payment_root"
+              sequence="10"/>
+    <menuitem id="bank_config"
+              name="Configurations"
+              parent="receive_payment_root"
+              sequence="20"/>
+</odoo>

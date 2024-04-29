@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access.bank.config,access_bank_config,receive_payment.model_bank_config,base.group_user,1,1,1,1
+access.receive.payment,access_receive_payment,receive_payment.model_receive_payment,base.group_user,1,1,1,1
+access.bank.config,access_bank_config,receive_payment.model_bank_config,receive_payment_create,1,0,0,0
+access.receive.payment,access_receive_payment,receive_payment.model_receive_payment,receive_payment_create,1,1,1,0
